@@ -1,18 +1,19 @@
 {
   "private": true,
+  "homepage": "https://AjayMargam.github.io/opPortfolio-master",
   "name": "opportfolio",
   "version": "1.2.0",
-  "homepage": "http://hrishi.tech/",
   "scripts": {
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {
     "baseui": "^12.2.0",
+    "gh-pages": "^6.1.0",
     "glamor": "^2.20.40",
     "react": "^16.8.0",
     "react-bootstrap": "^2.6.0",
